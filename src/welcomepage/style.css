@@ -1,0 +1,77 @@
+@keyframes a {
+  0% {
+    transform: translateY(1000px);
+    /* opacity: 0; */
+  }
+  100% {
+    transform: translate(1);
+    /* opacity: 1; */
+  }
+}
+
+@keyframes b {
+  0% {
+    transform: translateY(1px);
+    /* opacity: 0; */
+  }
+  100% {
+    transform: translate(1500px);
+    /* opacity: 1; */
+  }
+}
+
+@keyframes c {
+  0% {
+    transform: translate(1px);
+    /* opacity: 0; */
+  }
+  100% {
+    transform: translateY(1000px);
+    /* opacity: 1; */
+  }
+}
+
+.a {
+  font-size: 2em;
+  animation: a 2s ease-out 0.0001s forwards;
+}
+
+.b {
+  font-size: 2em;
+  animation: b 2s ease-out 0.0001s forwards;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.buttons {
+  animation: a 2s ease-out 0.0001s forwards;
+  display: flex;
+  gap: 1rem;
+  height: 30rem;
+  justify-content: center;
+  align-items: center;
+}
+.startbuttons {
+  font-size: larger;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 15rem;
+  height: 5rem;
+}
+.c {
+  animation: c 2s ease-out 0.0001s forwards;
+  display: flex;
+  gap: 1rem;
+  height: 30rem;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+    overflow: hidden;
+    height: 900px;
+}
