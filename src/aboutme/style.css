@@ -1,0 +1,80 @@
+.selfe {
+  width: 300px;
+}
+@keyframes example {
+  0% {
+    left: 2000px;
+    top: 200px;
+  }
+  25% {
+    left: 300px;
+    top: 300px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+@keyframes a {
+  0% {
+    /* transform: translateY(1000px); */
+    opacity: 0;
+  }
+  100% {
+    /* transform: translate(1); */
+    opacity: 30;
+  }
+}
+@keyframes b {
+  0% {
+    /* transform: translateY(1000px); */
+    opacity: 0;
+  }
+  100% {
+    /* transform: translate(1); */
+    opacity: 30;
+  }
+}
+
+.glfclass {
+  width: 150px;
+  animation: example 1s ease-out 0.00001s forwards;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+.first {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-top: 5rem;
+  width: 60%;
+  animation: a 5s ease-out 0.00001s forwards;
+
+}
+
+.imgcontenr {
+  display: flex;
+  justify-content: center;
+
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.nextpage{
+    position: fixed;
+    bottom: 40px;
+    right: 60px; 
+    background-color: white;
+}
+
